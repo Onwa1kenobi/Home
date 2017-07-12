@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="naira_sign">\u20A6</string>
+    <string name="transition_dialog">transition_dialog</string>
+    <string name="transition_container">transition_container</string>
+</resources>

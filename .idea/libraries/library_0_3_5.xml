@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-0.3.5">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/fe4dc197b38d14d9592ed860574b44d858d18b81/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/fe4dc197b38d14d9592ed860574b44d858d18b81/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.itangqi.waveloadingview/library/0.3.5/440fd6d7ff8836ea90efb0896ed96fef1ffe2117/library-0.3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

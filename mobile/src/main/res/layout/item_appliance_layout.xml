@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/module_container"
+    android:transitionName="@string/transition_container"
+    android:layout_margin="8dp"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:clickable="true"
+    app:cardCornerRadius="@dimen/text_margin"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete_button"
+            android:clickable="true"
+            android:paddingTop="@dimen/text_margin"
+            android:paddingEnd="@dimen/text_margin"
+            android:paddingRight="@dimen/text_margin"
+            android:paddingStart="@dimen/text_margin"
+            android:paddingLeft="@dimen/text_margin"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_close"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+
+        <ImageView
+            android:id="@+id/appliance_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_below="@id/delete_button"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:tint="@color/colorPrimary"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_globe_bulb" />
+
+        <TextView
+            android:id="@+id/appliance_title"
+            style="@style/TitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appliance_image"
+            android:gravity="center"
+            tool:text="Bedroom" />
+
+        <Switch
+            android:id="@+id/appliance_switch"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_below="@id/appliance_title"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

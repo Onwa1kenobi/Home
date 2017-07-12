@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#13214A</color>
+    <color name="colorPrimaryDark">#101522</color>
+    <color name="colorAccent">#F91604</color>
+
+    <color name="green">#006c00</color>
+    <color name="yellow">#bab302</color>
+    <color name="red">#c70e05</color>
+
+    <color name="dialog_background_color">#fafafa</color>
+    <color name="dialog_background_scrim">#99323232</color>
+</resources>
