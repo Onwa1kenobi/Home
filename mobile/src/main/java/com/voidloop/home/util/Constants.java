@@ -17,4 +17,5 @@ public class Constants {
 
     public static final String TRANSITION_NAME = "transition_container";
 
+    public static final String PREF_FIRST_USE = "firstUse";
 }

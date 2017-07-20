@@ -71,7 +71,6 @@
             android:id="@+id/appliance_title_wrapper"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
-
             android:layout_marginTop="@dimen/activity_horizontal_margin">
 
             <EditText

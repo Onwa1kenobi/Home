@@ -14,6 +14,10 @@ public class Overview {
             aggregatePowerUsage = 0,
             aggregatePowerUsageCost = 0;
 
+    private String securityPassword, userInstanceTokenID;
+
+    private boolean isBillingActive, isHomeSecure;
+
     public Overview() {
 
     }
@@ -56,5 +60,37 @@ public class Overview {
 
     public void setAggregatePowerUsageCost() {
         this.aggregatePowerUsageCost = getAggregatePowerUsage() * ENERGY_COST_CONVERSION_RATE;
+    }
+
+    public String getSecurityPassword() {
+        return securityPassword;
+    }
+
+    public void setSecurityPassword(String securityPassword) {
+        this.securityPassword = securityPassword;
+    }
+
+    public boolean getIsBillingActive() {
+        return isBillingActive;
+    }
+
+    public void setIsBillingActive(boolean billingActive) {
+        isBillingActive = billingActive;
+    }
+
+    public boolean isHomeSecure() {
+        return isHomeSecure;
+    }
+
+    public void setHomeSecure(boolean homeSecure) {
+        isHomeSecure = homeSecure;
+    }
+
+    public String getUserInstanceTokenID() {
+        return userInstanceTokenID;
+    }
+
+    public void setUserInstanceTokenID(String userInstanceTokenID) {
+        this.userInstanceTokenID = userInstanceTokenID;
     }
 }

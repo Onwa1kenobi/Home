@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.transition.Fade;
 
+import com.nightonke.blurlockview.Directions.HideType;
+import com.nightonke.blurlockview.Eases.EaseType;
 import com.voidloop.home.model.Module;
 import com.voidloop.home.util.Constants;
 import com.voidloop.home.util.ModuleDetailsTransition;
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements MainFragmentInter
         getSupportFragmentManager().beginTransaction().replace(R.id.content_holder, new MainFragment(),
                 MAIN_FRAGMENT)
                 .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out).commit();
+
     }
 
     @Override
@@ -87,4 +90,5 @@ public class MainActivity extends AppCompatActivity implements MainFragmentInter
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
+
 }

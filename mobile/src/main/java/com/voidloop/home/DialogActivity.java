@@ -112,9 +112,9 @@ public class DialogActivity extends AppCompatActivity {
             }
 
             ArrayList<String> idArray = new ArrayList<>();
+            idArray.add("home_id_0");
             idArray.add("home_id_1");
             idArray.add("home_id_2");
-            idArray.add("home_id_3");
 
             ArrayList<String> userRegisteredIds = getIntent()
                     .getStringArrayListExtra(Constants.FIREBASE_NODE_REGISTERED_IDS);

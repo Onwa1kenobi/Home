@@ -30,7 +30,7 @@
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
             android:layout_marginTop="10dp"
-            android:text="Add Module"
+            android:text="Add Room"
             android:textAppearance="?android:textAppearanceLarge" />
 
         <TextView
@@ -39,7 +39,7 @@
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
             android:layout_marginTop="@dimen/activity_horizontal_margin"
-            android:text="Select a module to add."
+            android:text="Select a room to add."
             android:textAppearance="?android:textAppearanceMedium" />
 
         <Spinner

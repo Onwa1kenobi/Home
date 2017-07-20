@@ -117,7 +117,6 @@ public class ModuleFragment extends Fragment implements ApplianceAdapter.Applian
                         Appliance appliance = child.getValue(Appliance.class);
                         appliance.setIsOn((boolean) dataSnapshot.child(Constants.FIREBASE_NODE_REGISTERED_IDS)
                                 .child(appliance.getId()).getValue());
-                        Toast.makeText(getContext(), "" + appliance.getIsOn(), Toast.LENGTH_SHORT).show();
                         mModuleAppliances.add(appliance);
                     }
 
