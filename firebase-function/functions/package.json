@@ -1,0 +1,13 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7",
+    "es6-promise-pool": "^2.4.4",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "secure-compare": "^3.0.1"
+  },
+  "private": true
+}
